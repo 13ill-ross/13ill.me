@@ -5,7 +5,7 @@ ruby = "3"
 CLIENT_ID = { required = "Set CLIENT_ID to your Spotify App Client ID in mise.local.toml" }
 CLIENT_SECRET = { required = "Set CLIENT_SECRET to your Spotify App Client Secret in mise.local.toml" }
 
-[tasks.install]
+[tasks.reqs]
 description = "Install project dependencies"
 run = "bundle install"
 
