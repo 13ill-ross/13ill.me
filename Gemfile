@@ -13,3 +13,7 @@ end
 group :scripts_plugins do
   gem "dotenv"
 end
+
+group :dev_tools do
+  gem "rufo"
+end

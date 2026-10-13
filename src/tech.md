@@ -5,10 +5,10 @@ title: tech
 # gaming pc
 
 :::
-CPU: Intel i5-9600k
+CPU: AMD Ryzen 7 5800X3D
 GPU: AMD RX 9070 
 RAM: 32GB DDR4
-Storage: 2TB SSD + 500GB SSD
+Storage: 2TB M.2 SSD + 2TB 2.5" SSD
 :::
 
 # work laptop
@@ -63,5 +63,9 @@ Storage: 32GB eMMC
 :::
 
 # rogue hardware
-
-- Nvidia RTX 2060 Super
+:::
+CPU: Intel i5-9600K
+GPU: Nvidia RTX 2060 Super
+RAM: 16GB DDR4
+Storage: 500GB M.2 SSD
+:::

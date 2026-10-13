@@ -1,0 +1,189 @@
+---
+- title: Qimmik
+  authors: Michel Jean
+  isbn: '9782764816318'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: 'Dirtbag Billionaire: How Yvon Chouinard Built Patagonia, Made a Fortune,
+    and Gave It All Away'
+  authors: David Gelles
+  isbn: '9781668032268'
+  status: read
+  date_read: 2025/11/17
+  owned: false
+- title: The Handmaid's Tale
+  authors: Margaret Atwood
+  isbn: '9780771008795'
+  status: read
+  date_read: 2026/02/09
+  owned: true
+- title: Catch-22
+  authors: Joseph Heller
+  isbn: '9781451626650'
+  status: did-not-finish
+  date_read: 2025/08/26
+  owned: true
+- title: 'The Sirens'' Call: How Attention Became the World''s Most Endangered Resource'
+  authors: Chris Hayes
+  isbn: '9780593653135'
+  status: read
+  date_read: 2026/01/20
+  owned: false
+- title: The Keeper
+  authors: Tana French
+  isbn: '9780593493465'
+  status: currently-reading
+  date_read: 2026/02/26
+  owned: false
+- title: 'Talk to Strangers: The Yes Theory Story'
+  authors: Matt Dahlia
+  isbn: '9798988849803'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: 'The Art and Science of Connection: Why Social Health Is the Missing Key
+    to Living Longer, Healthier, and Happier'
+  authors: Kasley Killam
+  isbn: '9780063289123'
+  status: read
+  date_read: 2026/04/28
+  owned: true
+- title: The Apollo Murders
+  authors: Chris Hadfield
+  isbn: '9780316264532'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: The Subtle Art of Not Giving a F*ck
+  authors: Mark Manson
+  isbn: '9780062457714'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: The Searcher
+  authors: Tana French
+  isbn: '9780735224650'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: Entitlement
+  authors: Rumaan Alam
+  isbn: '9780593718469'
+  status: read
+  date_read: 2025/10/04
+  owned: true
+- title: Le garçon d'encre
+  authors: Marie-Christine Chartier
+  isbn: '9782898511349'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: 'Du ruisseau à la rivière '
+  authors: Gloria Daigle
+  isbn: ''
+  status: read
+  date_read: 2025/02/17
+  owned: false
+- title: The Hunter
+  authors: Tana French
+  isbn: '9780593493434'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: Yearbook
+  authors: Seth Rogen
+  isbn: '9780735237995'
+  status: read
+  date_read: 2025/08/19
+  owned: false
+- title: '1984'
+  authors: George Orwell
+  isbn: '9780008516086'
+  status: read
+  date_read: 2025/02/14
+  owned: true
+- title: Do Androids Dream of Electric Sheep?
+  authors: Philip K. Dick
+  isbn: '9780345404473'
+  status: read
+  date_read: 2026/01/23
+  owned: true
+- title: Permanent Record
+  authors: Edward Snowden
+  isbn: '9781250237231'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: 'Breath: The New Science of a Lost Art'
+  authors: James Nestor
+  isbn: '9780735213616'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: Middle of the Night
+  authors: Riley Sager
+  isbn: '9780593472378'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: Surviving to Drive
+  authors: Guenther Steiner
+  isbn: '9781787636279'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: 'The Creative Act: A Way of Being'
+  authors: Rick Rubin
+  isbn: '9780593652886'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: Everything is Tuberculosis
+  authors: John Green
+  isbn: '9780525556572'
+  status: currently-reading
+  date_read: 2025/07/19
+  owned: true
+- title: The Memory Police
+  authors: Yōko Ogawa
+  isbn: '9781101911815'
+  status: read
+  date_read: 2026/01/30
+  owned: true
+- title: 'Mindf*ck: Cambridge Analytica and the Plot to Break America'
+  authors: Christopher Wylie
+  isbn: '9781984854636'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: F*ck It, I'll Start Tomorrow
+  authors: Action Bronson
+  isbn: '9781419744785'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: The Only One Left
+  authors: Riley Sager
+  isbn: '9780593183229'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: 'Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism'
+  authors: Sarah Wynn-Williams
+  isbn: '9781250391230'
+  status: read
+  date_read: 2025/05/13
+  owned: false
+- title: 'The Right Call: What Sports Teach Us About Work and Life'
+  authors: Sally Jenkins
+  isbn: '9781982122553'
+  status: read
+  date_read: 2025/02/12
+  owned: true
+- title: Shoe Dog
+  authors: Phil Knight
+  isbn: '9781501135910'
+  status: read
+  date_read: 2025/02/12
+  owned: true
