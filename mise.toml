@@ -4,8 +4,6 @@ ruby = "3"
 [env]
 CLIENT_ID = { required = "Set CLIENT_ID to your Spotify App Client ID in mise.local.toml" }
 CLIENT_SECRET = { required = "Set CLIENT_SECRET to your Spotify App Client Secret in mise.local.toml" }
-LASTFM_API_KEY = { required = "Set LASTFM_API_KEY to your last.fm API key" }
-LASTFM_SHARED_SECRET = {required = "Set LASTFM_SHARED_SECRET to your last.fm shared secret"}
 
 [tasks.reqs]
 description = "Install project dependencies"
