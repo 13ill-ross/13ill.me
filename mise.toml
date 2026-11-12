@@ -1,5 +1,5 @@
-[tools]
-ruby = "3"
+[settings]
+idiomatic_version_file_enable_tools = ["ruby"]
 
 [env]
 CLIENT_ID = { required = "Set CLIENT_ID to your Spotify App Client ID in mise.local.toml" }
