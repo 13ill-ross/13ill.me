@@ -9,8 +9,6 @@ groups:
     items:
       - name: Vinyl Collection
         link: /vinyl-collection.html
-      - name: Tech
-        link: /tech.html
       - name: Cool Stuff
         link: /cool-stuff.html
   - name: meta
