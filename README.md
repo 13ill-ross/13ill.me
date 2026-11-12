@@ -2,6 +2,8 @@
 
 Personal blog built using [Jekyll](https://jekyllrb.com)
 
+[![AI:R READ](https://img.shields.io/badge/AI-READ-grey?style=flat&logoSize=auto&labelColor=13171f)](https://0rwx.com)
+
 ## Development
 
 - Install Ruby 3.x using [rbenv](https://github.com/rbenv/rbenv)
