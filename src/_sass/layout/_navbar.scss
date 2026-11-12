@@ -71,7 +71,7 @@
   padding-left: 7px;
 }
 
-@media (max-wdith: 820px) {
+@include abstracts.breakpoint(small) {
   .nav-toggle:checked~.layout .sidebar {
     display: block;
   }
