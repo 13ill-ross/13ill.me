@@ -8,6 +8,7 @@
   margin: 0 auto;
   padding-top: abstracts.$topbar-h;
   min-height: 100vh;
+  min-height: 100dvh;
 }
 
 @include abstracts.breakpoint(medium) {
