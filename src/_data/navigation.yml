@@ -1,16 +1,19 @@
-- name: 13ill
-  list: false
-  link: /
-- name: life
-  list: false
-  link: /life.html
-- name: movement
-  list: false
-  link: /movement.html
-- name: vinyl collection
-  link: /vinyl-collection.html
-- name: tech
-  list: false
-  link: /tech.html
-- name: cool stuff
-  link: /cool-stuff.html
+groups:
+  - name: site
+    items:
+      - name: Life
+        link: /life.html
+      - name: Movement
+        link: /movement.html
+  - name: misc
+    items:
+      - name: Vinyl Collection
+        link: /vinyl-collection.html
+      - name: Tech
+        link: /tech.html
+      - name: Cool Stuff
+        link: /cool-stuff.html
+  - name: meta
+    items:
+      - name: Credits
+        link: /credits.html

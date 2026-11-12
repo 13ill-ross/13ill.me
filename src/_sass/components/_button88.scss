@@ -1,0 +1,11 @@
+@use '../abstracts';
+
+.button88 {
+  width: 88px;
+  height: 31px;
+  image-rendering: pixelated;
+  border: 1px solid abstracts.$border-soft;
+  transition: transform 0.1s, border-color 0.1s;
+  display: block;
+}
+

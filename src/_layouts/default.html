@@ -14,10 +14,37 @@
 </head>
 
 <body>
-  {% include navigation.html %}
-  <main class="content">
-    {{ content }}
-  </main>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+  <header class="topbar" role="banner">
+    <div class="topbar-inner">
+      <label for="nav-toggle" class="nav-burger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <a class="brand" href="/"><span>13ill</span></a>
+    </div>
+  </header>
+  <div class="layout">
+    {% include navigation.html %}
+    <main id="main" class="content" aria-label="Main Content">
+      <div class="prose">
+        {{ content }}
+      </div>
+      <footer aria-label="Footer section">
+        <span role="contentinfo">2025-2026 13ill.me</span>
+        <span>//</span>
+        <a href="https://0rwx.com" target="_blank">AI:R</a>
+        <span>::</span>
+        <a href="/credits">Credits</a>
+        <span>//</span>
+        <a href="https://github.com/13ill-ross" rel="me" target="_blank">Github</a>
+        <span>//</span>
+        <a href="./feed.xml">RSS</a>
+      </footer>
+    </main>
+    {% include buttonbar.html %}
+  </div>
 </body>
 
 </html>

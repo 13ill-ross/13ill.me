@@ -1,0 +1,29 @@
+@use '../abstracts';
+
+.my-button img {
+  width: 88px;
+  height: 31px;
+  image-rendering: pixelated;
+  border: 1px solid abstracts.$border;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.my-button a:hover img {
+  border-color: abstracts.$accent;
+}
+
+.my-button p {
+  color: abstracts.$text-dim;
+  font-size: 13px;
+  margin: 0;
+}
+
+.my-button p a {
+  color: abstracts.$accent;
+  text-decoration: underline;
+}
+
+.my-button p a:hover {
+  color: abstracts.$accent-2;
+}

@@ -1,0 +1,12 @@
+@use '../abstracts';
+
+.collection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  a:hover img {
+    transform: translateY(-2px);
+    border-color: abstracts.$accent;
+  }
+}

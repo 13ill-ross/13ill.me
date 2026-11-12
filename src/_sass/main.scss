@@ -1,200 +1,22 @@
-// Colors
-$primary-color: #f5f4ed;
-$secondary-color: #a6d49f;
-$ternary-color: #7EA094;
-$accent-color: #FF9147;
-$secondary-background-color: #19304d;
-$backgroud-color: #0F1D2E;
+@charset "UTF-8";
 
-// Fonts
-@import "https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"; // Montserrat (Sans Serif) & Crimson Text (Serif)
+// 1. Base stuff
+@use 'base/base';
+@use 'base/fonts';
+@use 'base/typography';
 
-// Styling
-body {
-  padding: 20px;
-  background-color: $backgroud-color;
-  color: $primary-color;
-  font-family: "Helvetica", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
+// 2. Layout-related sections
+@use 'layout/aside';
+@use 'layout/footer';
+@use 'layout/grid';
+@use 'layout/header';
+@use 'layout/navbar';
 
-h1 {
-  color: $accent-color;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-blockquote {
-  background-color: $secondary-background-color;
-  border: 4px solid $accent-color;
-  border-style: outset;
-  border-radius: 8px;
-  display: inline-block;
-  padding-left: 16px;
-  padding-right: 8px;
-}
-
-a {
-  color: $secondary-color;
-}
-
-a:active {
-  color: $ternary-color;
-}
-
-/**
-* Navigation
-* Heavily inspired by https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp
-**/
-
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-
-.sidebar a {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  display: block;
-  color: $primary-color;
-  padding: 16px;
-  text-decoration: none;
-}
-
-.sidebar a.current,
-.sidebar label.current {
-  color: $secondary-color;
-}
-
-.sidebar label {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  display: block;
-  color: $primary-color;
-  padding: 16px;
-  text-decoration: none;
-}
-
-.sidebar input[type="checkbox"] {
-  display: none;
-}
-
-.sidebar .lbl-toggle {
-  display: block;
-  cursor: pointer;
-  transition: all 0.25s ease-out;
-}
-
-.sidebar .lbl-toggle::before {
-  content: " ";
-  display: inline-block;
-
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid currentColor;
-
-  vertical-align: middle;
-  margin-right: 0.7rem;
-  transform: translateY(-2px);
-
-  transition: transform 0.2s ease-out;
-}
-
-.sidebar .collapsible-content {
-  max-height: 0px;
-  overflow: hidden;
-  transition: max-height 0.25s ease-in-out;
-}
-
-.sidebar .toggle:checked + .lbl-toggle + .collapsible-content {
-  max-height: 100vh;
-}
-
-.sidebar .toggle:checked + .lbl-toggle::before {
-  transform: rotate(90deg) translateX(-3px);
-}
-
-.sidebar .toggle:checked + .lbl-toggle {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-main.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
-}
-
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {
-    float: left;
-  }
-  main.content {
-    margin-left: 0;
-  }
-}
-
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 400px) {
-  .sidebar a,
-  .sidebar label {
-    text-align: center;
-    float: none;
-  }
-}
-
-/**
-* Posts
-**/
-
-div.post {
-	padding-bottom: 16px;
-}
-
-div.post img {
-  max-width: 50vw;
-  max-height: 50vh;
-}
-
-div.paragraph {
-	margin-top: 16px;
-	margin-bottom: 16px;
-}
-
-div.paragraph p {
-	margin: 0;
-}
-
-div.collection {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
-.container {
-  display: flex;
-}
-
-.container div {
-  margin-right: 20px;
-}
+// 3. Components
+@use 'components/button88';
+@use 'components/buttons88';
+@use 'components/collection';
+@use 'components/friends';
+@use 'components/my-button';
+@use 'components/post';
+@use 'components/prose';

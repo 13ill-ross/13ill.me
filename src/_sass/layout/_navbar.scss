@@ -1,0 +1,78 @@
+@use '../abstracts';
+
+.sidebar {
+  border-right: 1px solid abstracts.$border-soft;
+  padding: 24px 18px 40px;
+  position: sticky;
+  top: abstracts.$topbar-h;
+  height: calc(100vh - abstracts.$topbar-h);
+  overflow-y: auto;
+}
+
+@include abstracts.breakpoint(small) {
+    .sidebar {
+    display: none;
+    position: fixed;
+    top: abstracts.$topbar-h;
+    left: 0;
+    width: min(300px, 85vw);
+    background: abstracts.$bg-panel;
+    border-right: 1px solid abstracts.$border;
+    z-index: 15;
+    box-shadow: 8px 0 24px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.nav-group {
+  margin-bottom: 28px;
+}
+
+.nav-group h2 {
+  font-family: abstracts.$heading;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: abstracts.$text-dim;
+  margin: 0 0 10px 4px;
+}
+
+.nav-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-group li+li {
+  margin-top: 2px;
+}
+
+.nav-group a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  border-radius: 6px;
+  color: abstracts.$text;
+  text-decoration: none;
+  font-size: 15px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.nav-group a:hover {
+  background: abstracts.$bg-panel;
+  color: abstracts.$flash;
+}
+
+.nav-group a.active {
+  background: abstracts.$bg-panel;
+  color: abstracts.$flash;
+  border-left: 3px solid abstracts.$flash;
+  padding-left: 7px;
+}
+
+@media (max-wdith: 820px) {
+  .nav-toggle:checked~.layout .sidebar {
+    display: block;
+  }
+}

@@ -1,0 +1,12 @@
+@use '../abstracts';
+
+.buttons88 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+
+  a:hover img {
+    transform: translateY(-2px);
+    border-color: abstracts.$accent;
+  }
+}

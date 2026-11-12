@@ -1,0 +1,27 @@
+<aside class="buttonbar" aria-label="88x31 buttons and links">
+    <div class="side-group">
+        <h2>88x31</h2>
+        <div class="buttons88">
+            {% for button in site.data.buttonbar.buttons %}
+            <a href="{{button.url}}" target="_blank"><img src="{{button.asset}}" alt="{{button.alt}}"
+                    class="button88" /></a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="side-group my-button">
+        <h2>My Button</h2>
+        <a href="/">
+            <img src="/assets/images/buttons/13ill-88x31.gif" alt="13ill.me 88x31 button" class="button88" />
+        </a>
+    </div>
+    <div class="side-group">
+        <h2>Friends</h2>
+        <ul class="friends">
+            {% for friend in site.data.buttonbar.friends %}
+            <li>
+                <a href="{{friend.url}}" target="_blank">{{friend.name}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</aside>

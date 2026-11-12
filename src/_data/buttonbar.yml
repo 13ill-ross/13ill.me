@@ -1,0 +1,12 @@
+buttons:
+  - url: https://invictafortis.net
+    asset: /assets/images/buttons/InvictaFortisButton.gif
+    alt: "Invicta Fortis"
+  - url: https://88x31.datakra.sh
+    asset: /assets/images/buttons/datakrash_88x31buttongenerator.gif
+    alt: "88x31 Button Generator by Datakrash"
+friends:
+  - name: Manuel Dionne
+    url: https://mdionne.me
+  - name: James Donelle
+    url: https://jamedonelle.dev

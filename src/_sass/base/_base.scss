@@ -1,0 +1,40 @@
+@use '../abstracts';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: abstracts.$bg;
+    color: abstracts.$text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    scroll-margin-top: calc(abstracts.$topbar-h + 16px);
+}
+
+a {
+    color: abstracts.$accent;
+}
+
+a:hover {
+    color: abstracts.$accent-2;
+}
+
+img {
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+hr {
+    border: none;
+}

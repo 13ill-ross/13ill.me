@@ -1,0 +1,37 @@
+@use '../abstracts';
+
+.layout {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr) 240px;
+  gap: 0;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: abstracts.$topbar-h;
+  min-height: 100vh;
+}
+
+@include abstracts.breakpoint(medium) {
+  .layout {
+    grid-template-columns: 240px minmax(0, 1fr);
+  }
+}
+
+@include abstracts.breakpoint(small) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.content {
+  padding: 32px 48px 48px;
+  max-width: 860px;
+  width: 100%;
+  justify-self: center;
+  word-wrap: break-word;
+}
+
+@include abstracts.breakpoint(small) {
+  .content {
+    padding: 24px 18px 40px;
+  }
+}

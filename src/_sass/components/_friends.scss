@@ -1,0 +1,18 @@
+@use '../abstracts';
+
+.friends {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.friends a {
+  color: abstracts.$text;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.friends a:hover {
+  color: abstracts.$accent;
+  text-decoration: underline;
+}

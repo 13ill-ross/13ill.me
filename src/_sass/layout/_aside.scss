@@ -1,0 +1,44 @@
+@use '../abstracts';
+
+.buttonbar {
+  border-left: 1px solid abstracts.$border-soft;
+  padding: 24px 18px 40px;
+  position: sticky;
+  top: abstracts.$topbar-h;
+  height: calc(100vh - abstracts.$topbar-h);
+  overflow-y: auto;
+}
+
+@include abstracts.breakpoint(medium) {
+  .buttonbar {
+    grid-column: 2 / -1;
+    position: static;
+    height: auto;
+    border-left: none;
+    border-top: 1px solid abstracts.$border-soft;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+  }
+}
+
+@include abstracts.breakpoint(small) {
+  .buttonbar {
+    grid-column: 1 / -1;
+    display: none;
+  }
+}
+
+.side-group {
+  margin-bottom: 28px;
+}
+
+.side-group h2 {
+  font-family: abstracts.$heading;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: abstracts.$text-dim;
+  margin: 0 0 10px;
+}

@@ -1,0 +1,20 @@
+@use '../abstracts';
+
+footer {
+    position: relative;
+    margin-top: 24px;
+    padding-top: 16px;
+    padding-right: 12px;
+    border-top: 1px solid abstracts.$border-soft;
+    font-family: abstracts.$mono;
+    font-size: 13px;
+    color: abstracts.$text-dim;
+}
+
+footer a {
+    color: abstracts.$text-dim;
+}
+
+footer a:hover {
+    color: abstracts.$accent;
+}
